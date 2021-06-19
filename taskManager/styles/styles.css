@@ -1,0 +1,64 @@
+root{
+    --background:#F0F4F7;
+    --gray-1: #696969;
+    --dark-text: #202020;
+    --primary:#a36884;
+    --primary-bright:#FF1654;
+
+}
+
+body{
+    background-color:var(--background);
+    height:calc(100vh-56px);
+
+
+
+
+}
+h1{
+    color:  red;
+    
+}
+
+.container{
+    display:flex;
+
+}
+
+section{
+    flex:1;
+    color: red;
+}
+
+#list{
+    flex: 4;
+}
+
+#capture-form{
+    flex:3;
+}
+
+#iImportant{
+    font-size:32px;
+    cursor:pointer;
+}
+
+.task{
+    display:flex;
+}
+
+.task .important{
+    flex: 1;
+}
+
+.task .description{
+    flex: 5;
+}
+
+.task .due-date{
+    flex: 2;
+}
+
+.task .location{
+    flex: 2;
+}
