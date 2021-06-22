@@ -1,5 +1,5 @@
 class Task {
-    constructor(title, important, category, desc, location, dueDate, color) {
+    constructor(title, important, category, desc, location, dueDate, color, status) {
         this.title = title;
         this.important = important;
         this.category = category;
@@ -7,6 +7,7 @@ class Task {
         this.location = location;
         this.dueDate = dueDate;
         this.color = color;
+        this.status = status;
         this.name = "Reese";
     }
 }
